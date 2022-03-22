@@ -1,0 +1,28 @@
+Local repo git bash commands - 
+
+$git init
+
+git config --global user.email "poojaubale15@gmail.com"
+git config --global user.name "Pooja"
+
+
+$git remote add "https://github.com/Poojaubale15/gitTraining.git"
+git remote add origin  "https://github.com/Poojaubale15/gitTraining.git"
+
+To get all changes from remote to local
+$git pull origin main
+
+To add changes from local to remote
+$git add -A
+
+To check status 
+$git status
+
+Branch
+$git branch -M main
+
+Commit
+$git commit -m "Save file"
+
+Push
+$git push origin master
